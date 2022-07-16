@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/", methods = ['GET','POST'])
 def index():
-    return "Start Mahine Learning Project"
+    return "CI/ CD Pipeline has been executed successfully"
 
 
 if __name__ == "__main__":
