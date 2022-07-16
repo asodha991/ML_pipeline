@@ -13,7 +13,6 @@ HYPHEN_E_DOT = "-e ."
 
 
 def get_requirements_list() -> List[str]:
-    pass
     """
     Description: This function is going to return list of requirement
     mention in requirements.txt file
@@ -34,6 +33,6 @@ name=PROJECT_NAME,
 version=VERSION,
 author=AUTHOR,
 description=DESRCIPTION,
-packages=PACKAGES, 
+packages=find_packages(), 
 install_requires=get_requirements_list()
 )
